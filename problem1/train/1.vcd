@@ -1,0 +1,681 @@
+$date
+	Thu Oct 17 19:20:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var event 1 ! e_clk $end
+$var wire 1 " bench_pipeline_reg_9 $end
+$var wire 1 # bench_pipeline_reg_8 $end
+$var wire 1 $ bench_pipeline_reg_7 $end
+$var wire 1 % bench_pipeline_reg_6 $end
+$var wire 1 & bench_pipeline_reg_5 $end
+$var wire 1 ' bench_pipeline_reg_4 $end
+$var wire 1 ( bench_pipeline_reg_34 $end
+$var wire 1 ) bench_pipeline_reg_33 $end
+$var wire 1 * bench_pipeline_reg_32 $end
+$var wire 1 + bench_pipeline_reg_31 $end
+$var wire 1 , bench_pipeline_reg_30 $end
+$var wire 1 - bench_pipeline_reg_3 $end
+$var wire 1 . bench_pipeline_reg_29 $end
+$var wire 1 / bench_pipeline_reg_28 $end
+$var wire 1 0 bench_pipeline_reg_27 $end
+$var wire 1 1 bench_pipeline_reg_26 $end
+$var wire 1 2 bench_pipeline_reg_25 $end
+$var wire 1 3 bench_pipeline_reg_24 $end
+$var wire 1 4 bench_pipeline_reg_23 $end
+$var wire 1 5 bench_pipeline_reg_22 $end
+$var wire 1 6 bench_pipeline_reg_21 $end
+$var wire 1 7 bench_pipeline_reg_20 $end
+$var wire 1 8 bench_pipeline_reg_2 $end
+$var wire 1 9 bench_pipeline_reg_19 $end
+$var wire 1 : bench_pipeline_reg_18 $end
+$var wire 1 ; bench_pipeline_reg_17 $end
+$var wire 1 < bench_pipeline_reg_16 $end
+$var wire 1 = bench_pipeline_reg_15 $end
+$var wire 1 > bench_pipeline_reg_14 $end
+$var wire 1 ? bench_pipeline_reg_13 $end
+$var wire 1 @ bench_pipeline_reg_12 $end
+$var wire 1 A bench_pipeline_reg_11 $end
+$var wire 1 B bench_pipeline_reg_10 $end
+$var wire 1 C bench_pipeline_reg_1 $end
+$var wire 1 D bench_pipeline_reg_0 $end
+$var wire 1 E bench_in_stream $end
+$var wire 1 F bench_clk_ena $end
+$var reg 1 G bench_clk $end
+$var reg 1 H bench_reset $end
+$var reg 2 I indata_array [0:1] $end
+$scope module inst $end
+$var wire 1 G clk $end
+$var wire 1 F clk_ena $end
+$var wire 1 E in_stream $end
+$var wire 1 H reset $end
+$var reg 1 D pipeline_reg_0 $end
+$var reg 1 C pipeline_reg_1 $end
+$var reg 1 B pipeline_reg_10 $end
+$var reg 1 A pipeline_reg_11 $end
+$var reg 1 @ pipeline_reg_12 $end
+$var reg 1 ? pipeline_reg_13 $end
+$var reg 1 > pipeline_reg_14 $end
+$var reg 1 = pipeline_reg_15 $end
+$var reg 1 < pipeline_reg_16 $end
+$var reg 1 ; pipeline_reg_17 $end
+$var reg 1 : pipeline_reg_18 $end
+$var reg 1 9 pipeline_reg_19 $end
+$var reg 1 8 pipeline_reg_2 $end
+$var reg 1 7 pipeline_reg_20 $end
+$var reg 1 6 pipeline_reg_21 $end
+$var reg 1 5 pipeline_reg_22 $end
+$var reg 1 4 pipeline_reg_23 $end
+$var reg 1 3 pipeline_reg_24 $end
+$var reg 1 2 pipeline_reg_25 $end
+$var reg 1 1 pipeline_reg_26 $end
+$var reg 1 0 pipeline_reg_27 $end
+$var reg 1 / pipeline_reg_28 $end
+$var reg 1 . pipeline_reg_29 $end
+$var reg 1 - pipeline_reg_3 $end
+$var reg 1 , pipeline_reg_30 $end
+$var reg 1 + pipeline_reg_31 $end
+$var reg 1 * pipeline_reg_32 $end
+$var reg 1 ) pipeline_reg_33 $end
+$var reg 1 ( pipeline_reg_34 $end
+$var reg 1 ' pipeline_reg_4 $end
+$var reg 1 & pipeline_reg_5 $end
+$var reg 1 % pipeline_reg_6 $end
+$var reg 1 $ pipeline_reg_7 $end
+$var reg 1 # pipeline_reg_8 $end
+$var reg 1 " pipeline_reg_9 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx I
+xH
+0G
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+1!
+$end
+#5
+1!
+1G
+#10
+0F
+0E
+b0 I
+1!
+0G
+0H
+#15
+1!
+1G
+#20
+1E
+b1 I
+1!
+0G
+#25
+1!
+1G
+#30
+1!
+0G
+#35
+1!
+1G
+#40
+1F
+b11 I
+1!
+0G
+#45
+1D
+1!
+1G
+#50
+0F
+b1 I
+1!
+0G
+#55
+1!
+1G
+#60
+1!
+0G
+#65
+1!
+1G
+#70
+1!
+0G
+#75
+1!
+1G
+#80
+1F
+0E
+b10 I
+1!
+0G
+#85
+1C
+0D
+1!
+1G
+#90
+0F
+1E
+b1 I
+1!
+0G
+#95
+1!
+1G
+#100
+1!
+0G
+#105
+1!
+1G
+#110
+1F
+0E
+b10 I
+1!
+0G
+#115
+18
+0C
+1!
+1G
+#120
+0F
+1E
+b1 I
+1!
+0G
+#125
+1!
+1G
+#130
+1!
+0G
+#135
+1!
+1G
+#140
+0E
+b0 I
+1!
+0G
+#145
+1!
+1G
+#150
+1E
+b1 I
+1!
+0G
+#155
+1!
+1G
+#160
+1F
+0E
+b10 I
+1!
+0G
+#165
+1-
+08
+1!
+1G
+#170
+0F
+1E
+b1 I
+1!
+0G
+#175
+1!
+1G
+#180
+1F
+0E
+b10 I
+1!
+0G
+#185
+1'
+0-
+1!
+1G
+#190
+0F
+1E
+b1 I
+1!
+0G
+#195
+1!
+1G
+#200
+1F
+b11 I
+1!
+0G
+#205
+1&
+0'
+1D
+1!
+1G
+#210
+0E
+b10 I
+1!
+0G
+#215
+1%
+0&
+1C
+0D
+1!
+1G
+#220
+1E
+b11 I
+1!
+0G
+#225
+1$
+0%
+18
+0C
+1D
+1!
+1G
+#230
+0E
+b10 I
+1!
+0G
+#235
+1#
+0$
+1-
+08
+1C
+0D
+1!
+1G
+#240
+1!
+0G
+#245
+1"
+0#
+1'
+0-
+18
+0C
+1!
+1G
+#250
+0F
+b0 I
+1!
+0G
+#255
+1!
+1G
+#260
+1E
+b1 I
+1!
+0G
+#265
+1!
+1G
+#270
+0E
+b0 I
+1!
+0G
+#275
+1!
+1G
+#280
+1E
+b1 I
+1!
+0G
+#285
+1!
+1G
+#290
+1!
+0G
+#295
+1!
+1G
+#300
+1!
+0G
+#305
+1!
+1G
+#310
+1F
+b11 I
+1!
+0G
+#315
+1B
+0"
+1&
+0'
+1-
+08
+1D
+1!
+1G
+#320
+0E
+b10 I
+1!
+0G
+#325
+1A
+0B
+1%
+0&
+1'
+0-
+1C
+0D
+1!
+1G
+#330
+0F
+b0 I
+1!
+0G
+#335
+1!
+1G
+#340
+1!
+0G
+#345
+1!
+1G
+#350
+1F
+b10 I
+1!
+0G
+#355
+1@
+0A
+1$
+0%
+1&
+0'
+18
+0C
+1!
+1G
+#360
+0F
+1E
+b1 I
+1!
+0G
+#365
+1!
+1G
+#370
+1F
+0E
+b10 I
+1!
+0G
+#375
+1?
+0@
+1#
+0$
+1%
+0&
+1-
+08
+1!
+1G
+#380
+1E
+b11 I
+1!
+0G
+#385
+1>
+0?
+1"
+0#
+1$
+0%
+1'
+0-
+1D
+1!
+1G
+#390
+0F
+b1 I
+1!
+0G
+#395
+1!
+1G
+#400
+1F
+b11 I
+1!
+0G
+#405
+1=
+0>
+1B
+0"
+1#
+0$
+1&
+0'
+1C
+1!
+1G
+#410
+1!
+0G
+#415
+1<
+0=
+1A
+0B
+1"
+0#
+1%
+0&
+18
+1!
+1G
+#420
+0F
+b1 I
+1!
+0G
+#425
+1!
+1G
+#430
+1F
+0E
+b10 I
+1!
+0G
+#435
+1;
+0<
+1@
+0A
+1B
+0"
+1$
+0%
+1-
+0D
+1!
+1G
+#440
+1!
+0G
+#445
+1:
+0;
+1?
+0@
+1A
+0B
+1#
+0$
+1'
+0C
+1!
+1G
+#450
+0F
+1E
+b1 I
+1!
+0G
+#455
+1!
+1G
+#460
+1F
+b11 I
+1!
+0G
+#465
+19
+0:
+1>
+0?
+1@
+0A
+1"
+0#
+1&
+08
+1D
+1!
+1G
+#470
+1!
+0G
+#475
+17
+09
+1=
+0>
+1?
+0@
+1B
+0"
+1%
+0-
+1C
+1!
+1G
+#480
+0E
+b10 I
+1!
+0G
+#485
+16
+07
+1<
+0=
+1>
+0?
+1A
+0B
+1$
+0'
+18
+0D
+1!
+1G
+#490
+1!
+0G
+#495
+15
+06
+1;
+0<
+1=
+0>
+1@
+0A
+1#
+0&
+1-
+0C
+1!
+1G
+#500
+1!
+0G
