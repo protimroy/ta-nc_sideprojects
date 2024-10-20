@@ -5,7 +5,7 @@ The solution to this problem is to fine-tune a model so that it can generate the
 In order to do this, we need to generate a dataset of images and their corresponding wavedrom code. We can then use this dataset to fine-tune a model to generate the wavedrom code for a given image.
 
 
-#Dataset Generation
+# Dataset Generation
 ==================
 
 The dataset generation process is as follows:
