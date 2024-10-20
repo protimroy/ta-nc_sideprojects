@@ -11,7 +11,7 @@ Dataset Generation
 ==================
 
 The dataset generation process is as follows:
-![image](documentation_images/data_generation_architecture.png.png)
+![image](documentation_images/data_generation_architecture.png)
 
 1. Generate the test benches for each of the modules in the dataset.
 See generate_tb.sh for more details on the variables used in this command.
