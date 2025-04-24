@@ -1,0 +1,749 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_srtc_reset",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_spi_data_out[7:0]",
+            "wave": "x.=.....................................",
+            "data": [
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_spi_byte_cnt[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_spi_bit_cnt[2:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_write_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_sysclk_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_romsel_freq[31:0]",
+            "wave": "x=======================================",
+            "data": [
+                "242A6A",
+                "FF8112BD",
+                "FF0909AC",
+                "FF63E0AC",
+                "D72F6",
+                "8DBF33",
+                "FF658508",
+                "FF126EA4",
+                "1E7C6",
+                "DAF9A",
+                "7647E2",
+                "3D1B9A",
+                "EDA8AF",
+                "8C5BEF",
+                "F9FBD3",
+                "FFC66E49",
+                "FFC5EF09",
+                "FFAA27A5",
+                "E55FEF",
+                "FF77A4E4",
+                "FF1265AC",
+                "8FD9B7",
+                "F260D3",
+                "FFCEED2D",
+                "FFE800F5",
+                "FFC5949D",
+                "5CB092",
+                "FFBD1C51",
+                "FF2D56B0",
+                "FF654E4C",
+                "FF63DEC4",
+                "AE70E",
+                "FF807645",
+                "20C842",
+                "AAF08B",
+                "FF9D9999",
+                "FF96407D",
+                "FF130770",
+                "FF0D7870"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_refresh_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_read_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_pawr_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_pard_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_snes_cpuclk_freq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_saveram_mask_out[23:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_rtc_pgm_we",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_rtc_data_out[55:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_rom_mask_out[23:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_ramsel_out",
+            "wave": "0.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_param_ready",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_param_data[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_msu_volumerq[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_msu_trackrq[15:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_msu_status_set_out[5:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msu_status_reset_we",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msu_status_reset_out[5:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msu_reset_out",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msu_ptr_out[13:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msu_addressrq[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_msu_addr_out[13:0]",
+            "wave": "=.......................................",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_mcu_wrq",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_write",
+            "wave": "x1......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_rrq",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_rq_rdy",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_mapper[2:0]",
+            "wave": "=.......................................",
+            "data": [
+                "1"
+            ]
+        },
+        {
+            "name": "testbench.bench_mcu_data_out[7:0]",
+            "wave": "x.=..x.=.x......=..x=.x.=..x=...x=x.=...",
+            "data": [
+                "FF",
+                "FF",
+                "FF",
+                "FF",
+                "FF",
+                "FF",
+                "FF",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_mcu_data_in[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_mcu_bram_we",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_bram_data_out[7:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_bram_data_in[7:0]",
+            "wave": "xxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_mcu_bram_addr[12:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_featurebits_out[3:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_reset_out",
+            "wave": "1.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_pgm_we_out",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_pgm_data_out[23:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_pgm_addr_out[10:0]",
+            "wave": "=.......................................",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_dspx_dat_we_out",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_dat_data_out[15:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dspx_dat_addr_out[10:0]",
+            "wave": "=.......................................",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_dac_reset_out",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dac_play_out",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_dac_addr_out[10:0]",
+            "wave": "=.......................................",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_cmd_ready",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_cmd_data[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_clk",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_bsx_regs_set_out[7:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_bsx_regs_reset_we",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_bsx_regs_reset_out[7:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_addr_out[23:0]",
+            "wave": "=.......................................",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_SD_DMA_TGT[1:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_STATUS",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_SRAM_WE",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_SRAM_DATA[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_SD_DMA_PARTIAL_START[10:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_PARTIAL_END[10:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_PARTIAL",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_NEXTADDR",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SD_DMA_EN",
+            "wave": "0.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_MSU_STATUS[6:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F",
+                "0",
+                "7F"
+            ]
+        },
+        {
+            "name": "testbench.bench_DAC_STATUS",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:400]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0895E81",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8484D609",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB2C28465",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE33724C6",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2F784C5",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBBD27277",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE77696CE",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4007AE8",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDE8E28BD",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF96AB582D",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB2A72665",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCECCCC9D",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCB203E96",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8983B813",
+                "1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

@@ -1,0 +1,227 @@
+$date
+	Thu Apr 24 04:15:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! bench_pipeline_reg_9 $end
+$var wire 1 " bench_pipeline_reg_8 $end
+$var wire 1 # bench_pipeline_reg_7 $end
+$var wire 1 $ bench_pipeline_reg_6 $end
+$var wire 1 % bench_pipeline_reg_5 $end
+$var wire 1 & bench_pipeline_reg_4 $end
+$var wire 1 ' bench_pipeline_reg_34 $end
+$var wire 1 ( bench_pipeline_reg_33 $end
+$var wire 1 ) bench_pipeline_reg_32 $end
+$var wire 1 * bench_pipeline_reg_31 $end
+$var wire 1 + bench_pipeline_reg_30 $end
+$var wire 1 , bench_pipeline_reg_3 $end
+$var wire 1 - bench_pipeline_reg_29 $end
+$var wire 1 . bench_pipeline_reg_28 $end
+$var wire 1 / bench_pipeline_reg_27 $end
+$var wire 1 0 bench_pipeline_reg_26 $end
+$var wire 1 1 bench_pipeline_reg_25 $end
+$var wire 1 2 bench_pipeline_reg_24 $end
+$var wire 1 3 bench_pipeline_reg_23 $end
+$var wire 1 4 bench_pipeline_reg_22 $end
+$var wire 1 5 bench_pipeline_reg_21 $end
+$var wire 1 6 bench_pipeline_reg_20 $end
+$var wire 1 7 bench_pipeline_reg_2 $end
+$var wire 1 8 bench_pipeline_reg_19 $end
+$var wire 1 9 bench_pipeline_reg_18 $end
+$var wire 1 : bench_pipeline_reg_17 $end
+$var wire 1 ; bench_pipeline_reg_16 $end
+$var wire 1 < bench_pipeline_reg_15 $end
+$var wire 1 = bench_pipeline_reg_14 $end
+$var wire 1 > bench_pipeline_reg_13 $end
+$var wire 1 ? bench_pipeline_reg_12 $end
+$var wire 1 @ bench_pipeline_reg_11 $end
+$var wire 1 A bench_pipeline_reg_10 $end
+$var wire 1 B bench_pipeline_reg_1 $end
+$var wire 1 C bench_pipeline_reg_0 $end
+$var wire 1 D bench_in_stream $end
+$var wire 1 E bench_clk_ena $end
+$var wire 1 F bench_clk $end
+$var reg 1 G bench_reset $end
+$var reg 3 H indata_array [0:2] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx H
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+1F
+0E
+0D
+b100 H
+#10
+0F
+1D
+b1 H
+0G
+#20
+1E
+b11 H
+#25
+1F
+0E
+b101 H
+#40
+0F
+1E
+0D
+b10 H
+#45
+0E
+1D
+b1 H
+#50
+1F
+b101 H
+#55
+1E
+0D
+b110 H
+#60
+0E
+1D
+b101 H
+#70
+0D
+b100 H
+#75
+0F
+1D
+b1 H
+#80
+0C
+1F
+1E
+0D
+b110 H
+#85
+0E
+1D
+b101 H
+#90
+0F
+1E
+0D
+b10 H
+#95
+1F
+0E
+1D
+b101 H
+#100
+1E
+b111 H
+#105
+0F
+0D
+b10 H
+#110
+0B
+1C
+1F
+1D
+b111 H
+#115
+0F
+0D
+b10 H
+#120
+07
+1B
+0C
+1F
+b110 H
+#125
+0F
+0E
+b0 H
+#130
+1F
+1D
+b101 H
+#135
+0D
+b100 H
+#140
+1D
+b101 H
+#155
+0F
+1E
+b11 H
+#160
+0D
+b10 H
+#165
+0E
+b0 H
+#175
+1E
+b10 H
+#180
+1F
+0E
+1D
+b101 H
+#185
+1E
+0D
+b110 H
+#190
+0F
+1D
+b11 H
+#195
+1F
+0E
+b101 H
+#199

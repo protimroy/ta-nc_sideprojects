@@ -1,0 +1,285 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_vin[15:0]",
+            "wave": "x=======================================",
+            "data": [
+                "90",
+                "FE04",
+                "FC24",
+                "FD8F",
+                "35",
+                "236",
+                "FD96",
+                "FC49",
+                "7",
+                "36",
+                "1D9",
+                "F4",
+                "3B6",
+                "231",
+                "3E7",
+                "FF19",
+                "FF17",
+                "FEA8",
+                "395",
+                "FDDE",
+                "FC49",
+                "23F",
+                "3C9",
+                "FF3B",
+                "FFA0",
+                "FF16",
+                "172",
+                "FEF4",
+                "FCB5",
+                "FD95",
+                "FD8F",
+                "2B",
+                "FE01",
+                "83",
+                "2AB",
+                "FE76",
+                "FE59",
+                "FC4C",
+                "FC35"
+            ]
+        },
+        {
+            "name": "testbench.bench_v[15:0]",
+            "wave": "x...=.......=..======.....=.=..=....==..",
+            "data": [
+                "0",
+                "F4",
+                "3E7",
+                "0",
+                "FF17",
+                "0",
+                "395",
+                "0",
+                "FF16",
+                "FEF4",
+                "0",
+                "FE76",
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_uin[15:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_u[15:0]",
+            "wave": "x...=............==.......=....=....==..",
+            "data": [
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0",
+                "FFFF",
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_triIDin[15:0]",
+            "wave": "x=======================================",
+            "data": [
+                "A9A9",
+                "4AF4",
+                "26B0",
+                "82B3",
+                "CBD8",
+                "FCCC",
+                "1423",
+                "BA90",
+                "9F18",
+                "BE68",
+                "1F8B",
+                "6E69",
+                "A2BF",
+                "6FBC",
+                "EF4F",
+                "B926",
+                "BC26",
+                "9E95",
+                "7FBF",
+                "9393",
+                "96B0",
+                "66DC",
+                "834F",
+                "B4B6",
+                "3D7",
+                "5276",
+                "C24A",
+                "7145",
+                "5AC1",
+                "3933",
+                "7B13",
+                "9C38",
+                "D914",
+                "2109",
+                "C22D",
+                "6664",
+                "1F4",
+                "1DC0",
+                "E1C0"
+            ]
+        },
+        {
+            "name": "testbench.bench_triID[15:0]",
+            "wave": "x...=.......=..======.....=.=..=....==..",
+            "data": [
+                "0",
+                "6E69",
+                "EF4F",
+                "0",
+                "BC26",
+                "0",
+                "7FBF",
+                "0",
+                "5276",
+                "7145",
+                "0",
+                "6664",
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_tin[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_t[31:0]",
+            "wave": "x...=............==.......=....=....==..",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_hit",
+            "wave": "x0......10.1.0.10...1.010..1.0......1..0",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_globalreset",
+            "wave": "x0..10..10.10...10101....0.....1.0.101.0",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_enablenear",
+            "wave": "x10..1..0.1....01.01.010101....0....1.01",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_enable",
+            "wave": "x0.101.0..101...0.10..101.01..0.10.1.0.1",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk",
+            "wave": "x01.....01.01.010101.010..101...0...101.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_anyhit",
+            "wave": "x...0.......................1..0........",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:84]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "1FFFFFFFFFFFFFC0895E81",
+                "1FFFFFFFFFFFFF8484D609",
+                "1FFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "1FFFFFFFFFFFFFB2C28465",
+                "1FFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "1FFFFFFFFFFFFFE33724C6",
+                "1FFFFFFFFFFFFFE2F784C5",
+                "1FFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "1FFFFFFFFFFFFFBBD27277",
+                "1FFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "1FFFFFFFFFFFFFE77696CE",
+                "1FFFFFFFFFFFFFF4007AE8",
+                "1FFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "1FFFFFFFFFFFFFDE8E28BD",
+                "1FFFFFFFFFFFFF96AB582D",
+                "1FFFFFFFFFFFFFB2A72665",
+                "1FFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "1FFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "1FFFFFFFFFFFFFCECCCC9D",
+                "1FFFFFFFFFFFFFCB203E96",
+                "1FFFFFFFFFFFFF8983B813",
+                "1FFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

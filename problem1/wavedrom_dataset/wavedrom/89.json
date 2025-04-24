@@ -1,0 +1,235 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_snescmd_unlock",
+            "wave": "0.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_snescmd_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_snes_ajr",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_return_vector_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_pgm_we",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_pgm_in[31:0]",
+            "wave": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_pgm_idx[2:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7"
+            ]
+        },
+        {
+            "name": "testbench.bench_pad_latch",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_nmicmd_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_data_out[7:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_cheat_hit",
+            "wave": "x0......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_branch3_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_branch2_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_branch1_enable",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SNES_wr_strobe",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SNES_reset_strobe",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SNES_rd_strobe",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SNES_cycle_start",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_SNES_PA[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_SNES_DATA[7:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF",
+                "0",
+                "FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_SNES_ADDR[23:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF",
+                "0",
+                "FFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:87]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "FFFFFFFFFFFFFFC0895E81",
+                "FFFFFFFFFFFFFF8484D609",
+                "FFFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "FFFFFFFFFFFFFFB2C28465",
+                "FFFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "FFFFFFFFFFFFFFE33724C6",
+                "FFFFFFFFFFFFFFE2F784C5",
+                "FFFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "FFFFFFFFFFFFFFBBD27277",
+                "FFFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "FFFFFFFFFFFFFFE77696CE",
+                "FFFFFFFFFFFFFFF4007AE8",
+                "FFFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "FFFFFFFFFFFFFFDE8E28BD",
+                "FFFFFFFFFFFFFF96AB582D",
+                "FFFFFFFFFFFFFFB2A72665",
+                "FFFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "FFFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "FFFFFFFFFFFFFFCECCCC9D",
+                "FFFFFFFFFFFFFFCB203E96",
+                "FFFFFFFFFFFFFF8983B813",
+                "FFFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

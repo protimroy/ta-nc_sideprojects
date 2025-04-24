@@ -1,0 +1,311 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_s0_writedata[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_s0_write",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_waitrequest",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_response[1:0]",
+            "wave": "x.=.............=...=...=...=....=..=...",
+            "data": [
+                "1",
+                "2",
+                "3",
+                "2",
+                "1",
+                "0",
+                "1"
+            ]
+        },
+        {
+            "name": "testbench.bench_s0_readdatavalid",
+            "wave": "x.0....1.........................0..1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_readdata[31:0]",
+            "wave": "x.=....=........=...=...=...=....=..=...",
+            "data": [
+                "F8112BD0",
+                "F658508C",
+                "FC66E498",
+                "F77A4E4E",
+                "FCEED2D9",
+                "FBD1C517",
+                "F8076450",
+                "F9D99993"
+            ]
+        },
+        {
+            "name": "testbench.bench_s0_read",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_debugaccess",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_byteenable[3:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F"
+            ]
+        },
+        {
+            "name": "testbench.bench_s0_burstcount",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_s0_address[9:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF",
+                "0",
+                "3FF"
+            ]
+        },
+        {
+            "name": "testbench.bench_m0_writedata[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_write",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_waitrequest",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_response[1:0]",
+            "wave": "x==.==..==.==.==========.====..===.=====",
+            "data": [
+                "0",
+                "1",
+                "3",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "0",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "3",
+                "2",
+                "3",
+                "2",
+                "0",
+                "1",
+                "0",
+                "1",
+                "3",
+                "2",
+                "0",
+                "2",
+                "1",
+                "2",
+                "3",
+                "1"
+            ]
+        },
+        {
+            "name": "testbench.bench_m0_readdatavalid",
+            "wave": "x10..1..0.1....01.01.010101....0....1.01",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_readdata[31:0]",
+            "wave": "x=======================================",
+            "data": [
+                "242A6A4",
+                "F8112BD0",
+                "F0909AC1",
+                "F63E0ACC",
+                "D72F61",
+                "8DBF331",
+                "F658508C",
+                "F126EA42",
+                "1E7C60",
+                "DAF9A1",
+                "7647E2E",
+                "3D1B9A7",
+                "EDA8AFD",
+                "8C5BEF1",
+                "F9FBD3F",
+                "FC66E498",
+                "FC5EF098",
+                "FAA27A55",
+                "E55FEFC",
+                "F77A4E4E",
+                "F1265AC2",
+                "8FD9B71",
+                "F260D3E",
+                "FCEED2D9",
+                "FE800F5D",
+                "FC5949D8",
+                "5CB092B",
+                "FBD1C517",
+                "F2D56B05",
+                "F654E4CC",
+                "F63DEC4C",
+                "AE70E1",
+                "F8076450",
+                "20C8424",
+                "AAF08B5",
+                "F9D99993",
+                "F96407D2",
+                "F1307702",
+                "F0D78701"
+            ]
+        },
+        {
+            "name": "testbench.bench_m0_read",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_debugaccess",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_byteenable[3:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_burstcount",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_m0_address[9:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:86]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "7FFFFFFFFFFFFFC0895E81",
+                "7FFFFFFFFFFFFF8484D609",
+                "7FFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "7FFFFFFFFFFFFFB2C28465",
+                "7FFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "7FFFFFFFFFFFFFE33724C6",
+                "7FFFFFFFFFFFFFE2F784C5",
+                "7FFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "7FFFFFFFFFFFFFBBD27277",
+                "7FFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "7FFFFFFFFFFFFFE77696CE",
+                "7FFFFFFFFFFFFFF4007AE8",
+                "7FFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "7FFFFFFFFFFFFFDE8E28BD",
+                "7FFFFFFFFFFFFF96AB582D",
+                "7FFFFFFFFFFFFFB2A72665",
+                "7FFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "7FFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "7FFFFFFFFFFFFFCECCCC9D",
+                "7FFFFFFFFFFFFFCB203E96",
+                "7FFFFFFFFFFFFF8983B813",
+                "7FFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

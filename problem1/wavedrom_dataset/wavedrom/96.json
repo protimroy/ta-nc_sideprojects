@@ -1,0 +1,150 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_request[98:0]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "7FFFFFFFFFFFFFFFFC0895E81",
+                "7FFFFFFFFFFFFFFFF8484D609",
+                "7FFFFFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "7FFFFFFFFFFFFFFFFB2C28465",
+                "7FFFFFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "7FFFFFFFFFFFFFFFFE33724C6",
+                "7FFFFFFFFFFFFFFFFE2F784C5",
+                "7FFFFFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "7FFFFFFFFFFFFFFFFBBD27277",
+                "7FFFFFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "7FFFFFFFFFFFFFFFFE77696CE",
+                "7FFFFFFFFFFFFFFFFF4007AE8",
+                "7FFFFFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "7FFFFFFFFFFFFFFFFDE8E28BD",
+                "7FFFFFFFFFFFFFFFF96AB582D",
+                "7FFFFFFFFFFFFFFFFB2A72665",
+                "7FFFFFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "7FFFFFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "7FFFFFFFFFFFFFFFFCECCCC9D",
+                "7FFFFFFFFFFFFFFFFCB203E96",
+                "7FFFFFFFFFFFFFFFF8983B813",
+                "7FFFFFFFFFFFFFFFF86BC380D"
+            ]
+        },
+        {
+            "name": "testbench.bench_hold",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_grant[98:0]",
+            "wave": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk_en",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_arb_wait[98:0]",
+            "wave": "xx===xx==xxxxxxx===x==xx===x====x=xx====",
+            "data": [
+                "7FFFFFFFFFFFFFFFFC0895E81",
+                "7FFFFFFFFFFFFFFFF8484D609",
+                "7FFFFFFFFFFFFFFFFB1F05663",
+                "7FFFFFFFFFFFFFFFFB2C28465",
+                "7FFFFFFFFFFFFFFFF89375212",
+                "7FFFFFFFFFFFFFFFFE33724C6",
+                "7FFFFFFFFFFFFFFFFE2F784C5",
+                "7FFFFFFFFFFFFFFFFD513D2AA",
+                "7FFFFFFFFFFFFFFFFBBD27277",
+                "7FFFFFFFFFFFFFFFF8932D612",
+                "7FFFFFFFFFFFFFFFFE77696CE",
+                "7FFFFFFFFFFFFFFFFF4007AE8",
+                "7FFFFFFFFFFFFFFFFE2CA4EC5",
+                "7FFFFFFFFFFFFFFFFDE8E28BD",
+                "7FFFFFFFFFFFFFFFF96AB582D",
+                "7FFFFFFFFFFFFFFFFB2A72665",
+                "7FFFFFFFFFFFFFFFFB1EF6263",
+                "7FFFFFFFFFFFFFFFFC03B2280",
+                "7FFFFFFFFFFFFFFFFCECCCC9D",
+                "7FFFFFFFFFFFFFFFFCB203E96",
+                "7FFFFFFFFFFFFFFFF8983B813",
+                "7FFFFFFFFFFFFFFFF86BC380D"
+            ]
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:101]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "3FFFFFFFFFFFFFFFFFC0895E81",
+                "3FFFFFFFFFFFFFFFFF8484D609",
+                "3FFFFFFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "3FFFFFFFFFFFFFFFFFB2C28465",
+                "3FFFFFFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "3FFFFFFFFFFFFFFFFFE33724C6",
+                "3FFFFFFFFFFFFFFFFFE2F784C5",
+                "3FFFFFFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "3FFFFFFFFFFFFFFFFFBBD27277",
+                "3FFFFFFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "3FFFFFFFFFFFFFFFFFE77696CE",
+                "3FFFFFFFFFFFFFFFFFF4007AE8",
+                "3FFFFFFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "3FFFFFFFFFFFFFFFFFDE8E28BD",
+                "3FFFFFFFFFFFFFFFFF96AB582D",
+                "3FFFFFFFFFFFFFFFFFB2A72665",
+                "3FFFFFFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "3FFFFFFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "3FFFFFFFFFFFFFFFFFCECCCC9D",
+                "3FFFFFFFFFFFFFFFFFCB203E96",
+                "3FFFFFFFFFFFFFFFFF8983B813",
+                "3FFFFFFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

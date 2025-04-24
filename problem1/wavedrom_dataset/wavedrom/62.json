@@ -1,0 +1,360 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_S_AXI_RREADY",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_stego_img_addr[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_msg_addr[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_done_decoding",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_begin_decoding",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_WVALID",
+            "wave": "x1...0.10.101..01.01010.1010..1010.1..0.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_WSTRB[3:0]",
+            "wave": "x===.===============.======.======.===..",
+            "data": [
+                "6",
+                "B",
+                "A",
+                "F",
+                "3",
+                "0",
+                "A",
+                "C",
+                "9",
+                "E",
+                "9",
+                "A",
+                "E",
+                "D",
+                "4",
+                "0",
+                "A",
+                "E",
+                "A",
+                "B",
+                "D",
+                "2",
+                "F",
+                "9",
+                "5",
+                "B",
+                "4",
+                "C",
+                "0",
+                "4",
+                "8",
+                "9",
+                "7"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_WREADY",
+            "wave": "x.0....1........0.......1...0.......1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_WDATA[31:0]",
+            "wave": "x=======================================",
+            "data": [
+                "242A",
+                "FFFF8112",
+                "FFFF0909",
+                "FFFF63E0",
+                "D72",
+                "8DBF",
+                "FFFF6585",
+                "FFFF126E",
+                "1E7",
+                "DAF",
+                "7647",
+                "3D1B",
+                "EDA8",
+                "8C5B",
+                "F9FB",
+                "FFFFC66E",
+                "FFFFC5EF",
+                "FFFFAA27",
+                "E55F",
+                "FFFF77A4",
+                "FFFF1265",
+                "8FD9",
+                "F260",
+                "FFFFCEED",
+                "FFFFE800",
+                "FFFFC594",
+                "5CB0",
+                "FFFFBD1C",
+                "FFFF2D56",
+                "FFFF654E",
+                "FFFF63DE",
+                "AE7",
+                "FFFF8076",
+                "20C8",
+                "AAF0",
+                "FFFF9D99",
+                "FFFF9640",
+                "FFFF1307",
+                "FFFF0D78"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_RVALID",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_RRESP[1:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_RDATA[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_BVALID",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_BRESP[1:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_BREADY",
+            "wave": "x01...0.1.0..1.0..1....01..0..1...0..10.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_AWVALID",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_AWREADY",
+            "wave": "x.0....1........0.......1...0.......1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_AWPROT[2:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7",
+                "0",
+                "7"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_AWADDR[4:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F",
+                "0",
+                "1F"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_ARVALID",
+            "wave": "x01.....01.01.010101.010..101...0...101.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_ARREADY",
+            "wave": "x.0....1........0...1...0...1....0..1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_ARPROT[2:0]",
+            "wave": "x=====.======..=============..====.=====",
+            "data": [
+                "2",
+                "0",
+                "4",
+                "1",
+                "6",
+                "2",
+                "1",
+                "0",
+                "6",
+                "3",
+                "6",
+                "4",
+                "3",
+                "2",
+                "5",
+                "2",
+                "3",
+                "1",
+                "7",
+                "1",
+                "7",
+                "4",
+                "2",
+                "6",
+                "2",
+                "1",
+                "5",
+                "0",
+                "5",
+                "6",
+                "3",
+                "1",
+                "6"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_ARESETN",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_S_AXI_ARADDR[4:0]",
+            "wave": "x=========.======.=============.=====.==",
+            "data": [
+                "12",
+                "8",
+                "0",
+                "6",
+                "10",
+                "18",
+                "6",
+                "1",
+                "10",
+                "17",
+                "13",
+                "1E",
+                "18",
+                "1F",
+                "C",
+                "A",
+                "1E",
+                "7",
+                "1",
+                "18",
+                "1F",
+                "C",
+                "E",
+                "C",
+                "15",
+                "B",
+                "2",
+                "6",
+                "10",
+                "8",
+                "12",
+                "1A",
+                "9",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "name": "testbench.bench_S_AXI_ACLK",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:58]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "7FFFFFFC0895E81",
+                "7FFFFFF8484D609",
+                "7FFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "7FFFFFFB2C28465",
+                "7FFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "7FFFFFFE33724C6",
+                "7FFFFFFE2F784C5",
+                "7FFFFFFD513D2AA",
+                "72AFF7E5",
+                "7FFFFFFBBD27277",
+                "7FFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "7FFFFFFE77696CE",
+                "7FFFFFFF4007AE8",
+                "7FFFFFFE2CA4EC5",
+                "2E58495C",
+                "7FFFFFFDE8E28BD",
+                "7FFFFFF96AB582D",
+                "7FFFFFFB2A72665",
+                "7FFFFFFB1EF6263",
+                "573870A",
+                "7FFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "7FFFFFFCECCCC9D",
+                "7FFFFFFCB203E96",
+                "7FFFFFF8983B813",
+                "7FFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

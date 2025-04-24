@@ -1,0 +1,230 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x5580baad5a00 .scope module, "testbench" "testbench" 2 15;
+ .timescale 0 0;
+L_0x7ff0dcc49018 .functor BUFT 1, C4<x>, C4<0>, C4<0>, C4<0>;
+v0x5580baaa1350_0 .net "bench_ack_i", 0 0, L_0x7ff0dcc49018;  1 drivers
+v0x5580bab10610_0 .net "bench_addr_o", 31 0, v0x5580bab0ee50_0;  1 drivers
+v0x5580bab106b0_0 .net "bench_clk_i", 0 0, L_0x5580bab11be0;  1 drivers
+v0x5580bab10750_0 .net "bench_err_i", 0 0, L_0x5580bab12070;  1 drivers
+v0x5580bab107f0_0 .net "bench_rdata_i", 31 0, L_0x5580bab11f20;  1 drivers
+v0x5580bab10890_0 .net "bench_ren_o", 0 0, L_0x5580baad3cf0;  1 drivers
+v0x5580bab10960_0 .var "bench_reset", 0 0;
+v0x5580bab10a00_0 .net "bench_rstn_i", 0 0, L_0x5580bab11e30;  1 drivers
+v0x5580bab10ad0_0 .net "bench_sys_ack_o", 0 0, L_0x5580bab12860;  1 drivers
+v0x5580bab10ba0_0 .net "bench_sys_addr_i", 31 0, L_0x5580bab11710;  1 drivers
+v0x5580bab10c70_0 .net "bench_sys_clk_i", 0 0, L_0x5580bab11530;  1 drivers
+v0x5580bab10d40_0 .net "bench_sys_err_o", 0 0, L_0x5580bab126c0;  1 drivers
+v0x5580bab10e10_0 .net "bench_sys_rdata_o", 31 0, L_0x5580bab12600;  1 drivers
+v0x5580bab10ee0_0 .net "bench_sys_ren_i", 0 0, L_0x5580bab11af0;  1 drivers
+v0x5580bab10fb0_0 .net "bench_sys_rstn_i", 0 0, L_0x5580bab115d0;  1 drivers
+v0x5580bab11080_0 .net "bench_sys_sel_i", 3 0, L_0x5580bab11920;  1 drivers
+v0x5580bab11150_0 .net "bench_sys_wdata_i", 31 0, L_0x5580bab11800;  1 drivers
+v0x5580bab11220_0 .net "bench_sys_wen_i", 0 0, L_0x5580bab119c0;  1 drivers
+v0x5580bab112f0_0 .net "bench_wdata_o", 31 0, v0x5580bab10150_0;  1 drivers
+v0x5580bab113c0_0 .net "bench_wen_o", 0 0, L_0x5580bab124f0;  1 drivers
+v0x5580bab11490_0 .var "indata_array", 0 106;
+L_0x5580bab11530 .part v0x5580bab11490_0, 106, 1;
+L_0x5580bab115d0 .part v0x5580bab11490_0, 105, 1;
+L_0x5580bab11710 .part v0x5580bab11490_0, 73, 32;
+L_0x5580bab11800 .part v0x5580bab11490_0, 41, 32;
+L_0x5580bab11920 .part v0x5580bab11490_0, 37, 4;
+L_0x5580bab119c0 .part v0x5580bab11490_0, 36, 1;
+L_0x5580bab11af0 .part v0x5580bab11490_0, 35, 1;
+L_0x5580bab11be0 .part v0x5580bab11490_0, 34, 1;
+L_0x5580bab11e30 .part v0x5580bab11490_0, 33, 1;
+L_0x5580bab11f20 .part v0x5580bab11490_0, 1, 32;
+L_0x5580bab12070 .part v0x5580bab11490_0, 0, 1;
+S_0x5580baad5b90 .scope module, "inst" "bus_clk_bridge" 2 65, 3 1 0, S_0x5580baad5a00;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "sys_clk_i";
+    .port_info 1 /INPUT 1 "sys_rstn_i";
+    .port_info 2 /INPUT 32 "sys_addr_i";
+    .port_info 3 /INPUT 32 "sys_wdata_i";
+    .port_info 4 /INPUT 4 "sys_sel_i";
+    .port_info 5 /INPUT 1 "sys_wen_i";
+    .port_info 6 /INPUT 1 "sys_ren_i";
+    .port_info 7 /OUTPUT 32 "sys_rdata_o";
+    .port_info 8 /OUTPUT 1 "sys_err_o";
+    .port_info 9 /OUTPUT 1 "sys_ack_o";
+    .port_info 10 /INPUT 1 "clk_i";
+    .port_info 11 /INPUT 1 "rstn_i";
+    .port_info 12 /OUTPUT 32 "addr_o";
+    .port_info 13 /OUTPUT 32 "wdata_o";
+    .port_info 14 /OUTPUT 1 "wen_o";
+    .port_info 15 /OUTPUT 1 "ren_o";
+    .port_info 16 /INPUT 32 "rdata_i";
+    .port_info 17 /INPUT 1 "err_i";
+    .port_info 18 /INPUT 1 "ack_i";
+L_0x5580baad3c80 .functor XOR 1, L_0x5580bab12160, v0x5580bab0eff0_0, C4<0>, C4<0>;
+L_0x5580baad3cf0 .functor AND 1, v0x5580bab0fa10_0, L_0x5580baad3c80, C4<1>, C4<1>;
+L_0x5580bab123e0 .functor XOR 1, L_0x5580bab122f0, v0x5580bab0eff0_0, C4<0>, C4<0>;
+L_0x5580bab124f0 .functor AND 1, v0x5580bab10090_0, L_0x5580bab123e0, C4<1>, C4<1>;
+L_0x5580bab12600 .functor BUFZ 32, L_0x5580bab11f20, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>, C4<00000000000000000000000000000000>;
+L_0x5580bab126c0 .functor BUFZ 1, L_0x5580bab12070, C4<0>, C4<0>, C4<0>;
+L_0x5580bab12860 .functor XOR 1, v0x5580bab0f890_0, L_0x5580bab127c0, C4<0>, C4<0>;
+v0x5580baacd310_0 .net *"_ivl_1", 0 0, L_0x5580bab12160;  1 drivers
+v0x5580baad3e60_0 .net *"_ivl_17", 0 0, L_0x5580bab127c0;  1 drivers
+v0x5580bab0eac0_0 .net *"_ivl_2", 0 0, L_0x5580baad3c80;  1 drivers
+v0x5580bab0eb80_0 .net *"_ivl_7", 0 0, L_0x5580bab122f0;  1 drivers
+v0x5580bab0ec60_0 .net *"_ivl_8", 0 0, L_0x5580bab123e0;  1 drivers
+v0x5580bab0ed90_0 .net "ack_i", 0 0, L_0x7ff0dcc49018;  alias, 1 drivers
+v0x5580bab0ee50_0 .var "addr_o", 31 0;
+v0x5580bab0ef30_0 .net "clk_i", 0 0, L_0x5580bab11be0;  alias, 1 drivers
+v0x5580bab0eff0_0 .var "dst_do", 0 0;
+v0x5580bab0f0b0_0 .var "dst_done", 0 0;
+v0x5580bab0f170_0 .var "dst_sync", 1 0;
+v0x5580bab0f250_0 .net "err_i", 0 0, L_0x5580bab12070;  alias, 1 drivers
+v0x5580bab0f310_0 .net "rdata_i", 31 0, L_0x5580bab11f20;  alias, 1 drivers
+v0x5580bab0f3f0_0 .net "ren_o", 0 0, L_0x5580baad3cf0;  alias, 1 drivers
+v0x5580bab0f4b0_0 .net "rstn_i", 0 0, L_0x5580bab11e30;  alias, 1 drivers
+v0x5580bab0f570_0 .net "sys_ack_o", 0 0, L_0x5580bab12860;  alias, 1 drivers
+v0x5580bab0f630_0 .net "sys_addr_i", 31 0, L_0x5580bab11710;  alias, 1 drivers
+v0x5580bab0f710_0 .net "sys_clk_i", 0 0, L_0x5580bab11530;  alias, 1 drivers
+v0x5580bab0f7d0_0 .var "sys_do", 0 0;
+v0x5580bab0f890_0 .var "sys_done", 0 0;
+v0x5580bab0f950_0 .net "sys_err_o", 0 0, L_0x5580bab126c0;  alias, 1 drivers
+v0x5580bab0fa10_0 .var "sys_rd", 0 0;
+v0x5580bab0fad0_0 .net "sys_rdata_o", 31 0, L_0x5580bab12600;  alias, 1 drivers
+v0x5580bab0fbb0_0 .net "sys_ren_i", 0 0, L_0x5580bab11af0;  alias, 1 drivers
+v0x5580bab0fc70_0 .net "sys_rstn_i", 0 0, L_0x5580bab115d0;  alias, 1 drivers
+v0x5580bab0fd30_0 .net "sys_sel_i", 3 0, L_0x5580bab11920;  alias, 1 drivers
+v0x5580bab0fe10_0 .var "sys_sync", 1 0;
+v0x5580bab0fef0_0 .net "sys_wdata_i", 31 0, L_0x5580bab11800;  alias, 1 drivers
+v0x5580bab0ffd0_0 .net "sys_wen_i", 0 0, L_0x5580bab119c0;  alias, 1 drivers
+v0x5580bab10090_0 .var "sys_wr", 0 0;
+v0x5580bab10150_0 .var "wdata_o", 31 0;
+v0x5580bab10230_0 .net "wen_o", 0 0, L_0x5580bab124f0;  alias, 1 drivers
+E_0x5580baadb230 .event posedge, v0x5580bab0ef30_0;
+E_0x5580baadb480 .event posedge, v0x5580bab0f710_0;
+L_0x5580bab12160 .part v0x5580bab0f170_0, 1, 1;
+L_0x5580bab122f0 .part v0x5580bab0f170_0, 1, 1;
+L_0x5580bab127c0 .part v0x5580bab0fe10_0, 1, 1;
+    .scope S_0x5580baad5b90;
+T_0 ;
+    %wait E_0x5580baadb480;
+    %load/vec4 v0x5580bab0fc70_0;
+    %cmpi/e 0, 0, 1;
+    %jmp/0xz  T_0.0, 4;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab0fa10_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab10090_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab0f7d0_0, 0;
+    %pushi/vec4 0, 0, 2;
+    %assign/vec4 v0x5580bab0fe10_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab0f890_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0x5580bab0f7d0_0;
+    %load/vec4 v0x5580bab0f890_0;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %load/vec4 v0x5580bab0ffd0_0;
+    %load/vec4 v0x5580bab0fbb0_0;
+    %or;
+    %and;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.2, 8;
+    %load/vec4 v0x5580bab0f630_0;
+    %assign/vec4 v0x5580bab0ee50_0, 0;
+    %load/vec4 v0x5580bab0fef0_0;
+    %assign/vec4 v0x5580bab10150_0, 0;
+    %load/vec4 v0x5580bab0fbb0_0;
+    %assign/vec4 v0x5580bab0fa10_0, 0;
+    %load/vec4 v0x5580bab0ffd0_0;
+    %assign/vec4 v0x5580bab10090_0, 0;
+    %load/vec4 v0x5580bab0f7d0_0;
+    %nor/r;
+    %assign/vec4 v0x5580bab0f7d0_0, 0;
+T_0.2 ;
+    %load/vec4 v0x5580bab0fe10_0;
+    %parti/s 1, 0, 2;
+    %load/vec4 v0x5580bab0f0b0_0;
+    %concat/vec4; draw_concat_vec4
+    %assign/vec4 v0x5580bab0fe10_0, 0;
+    %load/vec4 v0x5580bab0fe10_0;
+    %parti/s 1, 1, 2;
+    %assign/vec4 v0x5580bab0f890_0, 0;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0x5580baad5b90;
+T_1 ;
+    %wait E_0x5580baadb230;
+    %load/vec4 v0x5580bab0f4b0_0;
+    %cmpi/e 0, 0, 1;
+    %jmp/0xz  T_1.0, 4;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab0eff0_0, 0;
+    %pushi/vec4 0, 0, 2;
+    %assign/vec4 v0x5580bab0f170_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0x5580bab0f0b0_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v0x5580bab0f170_0;
+    %parti/s 1, 0, 2;
+    %load/vec4 v0x5580bab0f7d0_0;
+    %concat/vec4; draw_concat_vec4
+    %assign/vec4 v0x5580bab0f170_0, 0;
+    %load/vec4 v0x5580bab0f170_0;
+    %parti/s 1, 1, 2;
+    %assign/vec4 v0x5580bab0eff0_0, 0;
+    %load/vec4 v0x5580bab0ed90_0;
+    %load/vec4 v0x5580bab0eff0_0;
+    %load/vec4 v0x5580bab0f0b0_0;
+    %cmp/ne;
+    %flag_get/vec4 4;
+    %and;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.2, 8;
+    %load/vec4 v0x5580bab0eff0_0;
+    %assign/vec4 v0x5580bab0f0b0_0, 0;
+T_1.2 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_0x5580baad5a00;
+T_2 ;
+    %vpi_call 2 55 "$dumpfile", "27.vcd" {0 0 0};
+    %vpi_call 2 56 "$dumpvars", 32'sb00000000000000000000000000000001, S_0x5580baad5a00 {0 0 0};
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x5580bab10960_0, 0, 1;
+    %end;
+    .thread T_2;
+    .scope S_0x5580baad5a00;
+T_3 ;
+    %delay 5, 0;
+    %vpi_func 2 62 "$random" 32 {0 0 0};
+    %pad/s 107;
+    %store/vec4 v0x5580bab11490_0, 0, 107;
+    %jmp T_3;
+    .thread T_3;
+    .scope S_0x5580baad5a00;
+T_4 ;
+    %vpi_call 2 89 "$monitor", $time, " bench_reset = %b, sys_clk_i = %b , sys_rstn_i = %b , sys_addr_i = %b , sys_wdata_i = %b , sys_sel_i = %b , sys_wen_i = %b , sys_ren_i = %b , clk_i = %b , rstn_i = %b , rdata_i = %b , err_i = %b , ack_i = %b , sys_rdata_o = %b , sys_err_o = %b , sys_ack_o = %b , addr_o = %b , wdata_o = %b , wen_o = %b , ren_o = %b  ", v0x5580bab10960_0, v0x5580bab10c70_0, v0x5580bab10fb0_0, v0x5580bab10ba0_0, v0x5580bab11150_0, v0x5580bab11080_0, v0x5580bab11220_0, v0x5580bab10ee0_0, v0x5580bab106b0_0, v0x5580bab10a00_0, v0x5580bab107f0_0, v0x5580bab10750_0, v0x5580baaa1350_0, v0x5580bab10e10_0, v0x5580bab10d40_0, v0x5580bab10ad0_0, v0x5580bab10610_0, v0x5580bab112f0_0, v0x5580bab113c0_0, v0x5580bab10890_0 {0 0 0};
+    %end;
+    .thread T_4;
+    .scope S_0x5580baad5a00;
+T_5 ;
+    %delay 199, 0;
+    %vpi_call 2 95 "$finish" {0 0 0};
+    %end;
+    .thread T_5;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "wavedrom_dataset/testbenches/27_tb.v";
+    "wavedrom_dataset/verilog_modules/14.v";

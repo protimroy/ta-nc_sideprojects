@@ -1,0 +1,128 @@
+$date
+	Thu Apr 24 03:54:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! bench_out $end
+$var wire 1 " bench_in $end
+$var wire 1 # bench_clk $end
+$var reg 1 $ bench_reset $end
+$var reg 2 % indata_array [0:1] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+x$
+x#
+x"
+x!
+$end
+#5
+0#
+0"
+b0 %
+#10
+1"
+b1 %
+0$
+#20
+1#
+b11 %
+#25
+0#
+b1 %
+#40
+1#
+0"
+b10 %
+#45
+0#
+1"
+b1 %
+#55
+1#
+0"
+b10 %
+#60
+0#
+1"
+b1 %
+#70
+0"
+b0 %
+#75
+1"
+b1 %
+#80
+1#
+0"
+b10 %
+#85
+0#
+1"
+b1 %
+#90
+1#
+0"
+b10 %
+#95
+0#
+1"
+b1 %
+#100
+1#
+b11 %
+#105
+0"
+b10 %
+#110
+1"
+b11 %
+#115
+0"
+b10 %
+#125
+0#
+b0 %
+#130
+1"
+b1 %
+#135
+0"
+b0 %
+#140
+1"
+b1 %
+#155
+1#
+b11 %
+#160
+0"
+b10 %
+#165
+0#
+b0 %
+#175
+1#
+b10 %
+#180
+0#
+1"
+b1 %
+#185
+1#
+0"
+b10 %
+#190
+1"
+b11 %
+#195
+0#
+b1 %
+#199

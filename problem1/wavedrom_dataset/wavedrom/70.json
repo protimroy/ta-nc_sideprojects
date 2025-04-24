@@ -1,0 +1,283 @@
+{
+    "signal": [
+        {
+            "name": "testbench.bench_ack_i",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_wen_o",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_wdata_o[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_wen_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_wdata_i[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_sys_sel_i[3:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F",
+                "0",
+                "F"
+            ]
+        },
+        {
+            "name": "testbench.bench_sys_rstn_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_ren_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_rdata_o[31:0]",
+            "wave": "x=======================================",
+            "data": [
+                "90A9A92",
+                "E044AF40",
+                "C2426B04",
+                "D8F82B31",
+                "35CBD86",
+                "236FCCC6",
+                "D9614232",
+                "C49BA909",
+                "79F180",
+                "36BE686",
+                "1D91F8BB",
+                "F46E69E",
+                "3B6A2BF6",
+                "2316FBC6",
+                "3E7EF4FC",
+                "F19B9263",
+                "F17BC262",
+                "EA89E955",
+                "3957FBF2",
+                "DDE9393B",
+                "C4996B09",
+                "23F66DC7",
+                "3C9834F9",
+                "F3BB4B67",
+                "FA003D74",
+                "F1652762",
+                "172C24AE",
+                "EF47145E",
+                "CB55AC16",
+                "D9539332",
+                "D8F7B131",
+                "2B9C385",
+                "E01D9140",
+                "8321090",
+                "2ABC22D5",
+                "E766664E",
+                "E5901F4B",
+                "C4C1DC09",
+                "C35E1C06"
+            ]
+        },
+        {
+            "name": "testbench.bench_sys_err_o",
+            "wave": "x01.....01.01.010101.010..101...0...101.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_clk_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_sys_addr_i[31:0]",
+            "wave": "x==..=.=.=......=..==.=.=..==...===.=...",
+            "data": [
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF",
+                "0",
+                "FFFFFFFF"
+            ]
+        },
+        {
+            "name": "testbench.bench_sys_ack_o",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_rstn_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_ren_o",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_rdata_i[31:0]",
+            "wave": "x=======================================",
+            "data": [
+                "90A9A92",
+                "E044AF40",
+                "C2426B04",
+                "D8F82B31",
+                "35CBD86",
+                "236FCCC6",
+                "D9614232",
+                "C49BA909",
+                "79F180",
+                "36BE686",
+                "1D91F8BB",
+                "F46E69E",
+                "3B6A2BF6",
+                "2316FBC6",
+                "3E7EF4FC",
+                "F19B9263",
+                "F17BC262",
+                "EA89E955",
+                "3957FBF2",
+                "DDE9393B",
+                "C4996B09",
+                "23F66DC7",
+                "3C9834F9",
+                "F3BB4B67",
+                "FA003D74",
+                "F1652762",
+                "172C24AE",
+                "EF47145E",
+                "CB55AC16",
+                "D9539332",
+                "D8F7B131",
+                "2B9C385",
+                "E01D9140",
+                "8321090",
+                "2ABC22D5",
+                "E766664E",
+                "E5901F4B",
+                "C4C1DC09",
+                "C35E1C06"
+            ]
+        },
+        {
+            "name": "testbench.bench_err_i",
+            "wave": "x01.....01.01.010101.010..101...0...101.",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_clk_i",
+            "wave": "x01..0.1.0......1..01.0.1..01...010.1...",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_addr_o[31:0]",
+            "wave": "x.......................................",
+            "data": []
+        },
+        {
+            "name": "testbench.bench_reset",
+            "wave": "x.0.....................................",
+            "data": []
+        },
+        {
+            "name": "testbench.indata_array[0:106]",
+            "wave": "x=======================================",
+            "data": [
+                "12153524",
+                "7FFFFFFFFFFFFFFFFFFC0895E81",
+                "7FFFFFFFFFFFFFFFFFF8484D609",
+                "7FFFFFFFFFFFFFFFFFFB1F05663",
+                "6B97B0D",
+                "46DF998D",
+                "7FFFFFFFFFFFFFFFFFFB2C28465",
+                "7FFFFFFFFFFFFFFFFFF89375212",
+                "F3E301",
+                "6D7CD0D",
+                "3B23F176",
+                "1E8DCD3D",
+                "76D457ED",
+                "462DF78C",
+                "7CFDE9F9",
+                "7FFFFFFFFFFFFFFFFFFE33724C6",
+                "7FFFFFFFFFFFFFFFFFFE2F784C5",
+                "7FFFFFFFFFFFFFFFFFFD513D2AA",
+                "72AFF7E5",
+                "7FFFFFFFFFFFFFFFFFFBBD27277",
+                "7FFFFFFFFFFFFFFFFFF8932D612",
+                "47ECDB8F",
+                "793069F2",
+                "7FFFFFFFFFFFFFFFFFFE77696CE",
+                "7FFFFFFFFFFFFFFFFFFF4007AE8",
+                "7FFFFFFFFFFFFFFFFFFE2CA4EC5",
+                "2E58495C",
+                "7FFFFFFFFFFFFFFFFFFDE8E28BD",
+                "7FFFFFFFFFFFFFFFFFF96AB582D",
+                "7FFFFFFFFFFFFFFFFFFB2A72665",
+                "7FFFFFFFFFFFFFFFFFFB1EF6263",
+                "573870A",
+                "7FFFFFFFFFFFFFFFFFFC03B2280",
+                "10642120",
+                "557845AA",
+                "7FFFFFFFFFFFFFFFFFFCECCCC9D",
+                "7FFFFFFFFFFFFFFFFFFCB203E96",
+                "7FFFFFFFFFFFFFFFFFF8983B813",
+                "7FFFFFFFFFFFFFFFFFF86BC380D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}
